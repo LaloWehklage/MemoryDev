@@ -8,7 +8,38 @@ const concepts = [
   ["Banco de Dados", "Armazenamento de dados"],
   ["Docker", "Contêinerização"],
   ["Scrum", "Gestão ágil"],
-  ["REST", "Arquitetura de APIs"]
+  ["REST", "Arquitetura de APIs"],
+  ["Back-end", "Lógica e processamento no servidor"],
+  ["Front-end", "Interface e interação com o usuário"],
+  ["DevOps", "Integração entre desenvolvimento e operações"],
+  ["UML", "Linguagem de modelagem de sistemas"],
+  ["Deploy", "Publicação de uma aplicação"],
+  ["Refatoração", "Melhoria do código sem alterar funcionalidade"],
+  ["Escalabilidade", "Capacidade de crescer sem perder desempenho"],
+  ["Alta Disponibilidade", "Sistema sempre acessível"],
+  ["Load Balancer", "Distribuição de carga entre servidores"],
+  ["Cache", "Armazenamento temporário para acelerar acesso"],
+  ["Firewall", "Barreira de proteção contra acessos indevidos"],
+  ["Criptografia", "Proteção de dados por codificação"],
+  ["Autenticação", "Verificação de identidade do usuário"],
+  ["Autorização", "Permissão de acesso a recursos"],
+  ["Log", "Registro de eventos do sistema"],
+  ["Monitoramento", "Acompanhamento da saúde do sistema"],
+  ["Rollback", "Reversão de uma versão de sistema"],
+  ["Endpoint", "Ponto de acesso de uma API"],
+  ["Middleware", "Camada intermediária entre sistemas"],
+  ["Serviço", "Componente que executa uma função específica"],
+  ["Thread", "Unidade de execução paralela"],
+  ["Escopo", "Limite de visibilidade de variáveis"],
+  ["Pipeline", "Fluxo automatizado de processos"],
+  ["Ambiente de Produção", "Sistema em uso real por usuários"],
+  ["Ambiente de Homologação", "Sistema para testes finais"],
+  ["Ambiente de Desenvolvimento", "Sistema para criação e testes iniciais"],
+  ["Singleton", "Padrão que garante uma única instância"],
+  ["Observer", "Padrão que reage a mudanças de estado"],
+  ["Service Layer", "Camada que organiza regras de negócio"],
+  ["Repository", "Camada de acesso a dados"]
+
 ];
 
 let level = 1;
@@ -134,3 +165,4 @@ function showFinalTime() {
 }
 
 setupLevel(level);
+
